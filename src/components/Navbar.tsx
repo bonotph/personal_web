@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Navbar(){
     return (
 <div className="navbar bg-base-100">
@@ -21,36 +23,36 @@ export default function Navbar(){
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
         <li>
-          <a>Applications</a>
+          <Link href = "/">Applications</Link>
           <ul className="p-2">
-            <li><a>Schedule App</a></li>
-            <li><a>DND App</a></li>
-            <li><a>Hike App</a></li>
+            <li><Link href = "/">Schedule App</Link></li>
+            <li><Link href = "/">DND App</Link></li>
+            <li><Link href = "/">Hike App</Link></li>
           </ul>
         </li>
         <li>
-          <a>Parent</a>
+          <Link href = "/">Parent</Link>
           <ul className="p-2">
-            <li><a>Hong Kong</a></li>
-            <li><a>UK</a></li>
+            <li><Link href = "/">Hong Kong</Link></li>
+            <li><Link href = "/">UK</Link></li>
           </ul>
         </li>
         <li>
-          <a>Photography</a>
+          <Link href = "/">Photography</Link>
           <ul className="p-2">
-            <li><a>photos</a></li>
-            <li><a>vlogs</a></li>
+            <li><Link href = "/">photos</Link></li>
+            <li><Link href = "/">vlogs</Link></li>
           </ul>
         </li>
       </ul>
     </div>
-    <a href = "/" className="btn btn-ghost text-xl">TOME</a>
+    <Link href = "/" className="btn btn-ghost text-xl">TOME</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li className="flex">
                         <div className="flex items-center">
-                            <a href="/applications" className="px-4 py-2 hover:bg-base-200 rounded-l">Applications</a>
+                            <Link href="/applications" className="px-4 py-2 hover:bg-base-200 rounded-l">Applications</Link>
                             <div className="dropdown dropdown-hover dropdown-end">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -58,9 +60,9 @@ export default function Navbar(){
                                     </svg>
                                 </label>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Schedule App</a></li>
-                                    <li><a>DND App</a></li>
-                                    <li><a>Hike App</a></li>
+                                    <li><Link href = "/">Schedule App</Link></li>
+                                    <li><Link href = "/">DND App</Link></li>
+                                    <li><Link href = "/">Hike App</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -68,7 +70,7 @@ export default function Navbar(){
 
                     <li className="flex">
                         <div className="flex items-center">
-                            <a href="/travel" className="px-4 py-2 hover:bg-base-200 rounded-l">Travel</a>
+                            <Link href="/travel" className="px-4 py-2 hover:bg-base-200 rounded-l">Travel</Link>
                             <div className="dropdown dropdown-hover dropdown-end">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,8 +78,8 @@ export default function Navbar(){
                                     </svg>
                                 </label>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Hong Kong</a></li>
-                                    <li><a href = "/travel/UK">UK</a></li>
+                                    <li><Link href = "/">Hong Kong</Link></li>
+                                    <li><Link href = "/travel/UK">UK</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,7 +87,7 @@ export default function Navbar(){
 
                     <li className="flex">
                         <div className="flex items-center">
-                            <a href="/photography" className="px-4 py-2 hover:bg-base-200 rounded-l">Photography</a>
+                            <Link href="/photography" className="px-4 py-2 hover:bg-base-200 rounded-l">Photography</Link>
                             <div className="dropdown dropdown-hover dropdown-end">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -93,8 +95,8 @@ export default function Navbar(){
                                     </svg>
                                 </label>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>photos</a></li>
-                                    <li><a>vlogs</a></li>
+                                    <li><Link href = "/">photos</Link></li>
+                                    <li><Link href = "/"> vlogs</Link></li>
                                 </ul>
                             </div>
                         </div>
