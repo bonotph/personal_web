@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Current progress: just a prototype, frontpage
+
+next tasks: fix dropdown ui, add pages
+
+future plan:
+1. applications
+    * cross platform schedule and count money app used with family and frds, implemented with Flutter and Django
+    * DND board game hosting app
+    * hiking app, find buddies, race, trail map
+
+2. travel
+    * hk places
+    * 12 countries visited in exchange
+    * Asian countries
+
+3. photography
+    * photo album
+    * vlogs
+
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -16,7 +36,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
