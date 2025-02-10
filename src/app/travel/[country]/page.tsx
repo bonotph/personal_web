@@ -22,7 +22,7 @@ export default function CountryPage({ params: paramsPromise }: { params: Promise
       />
       <div className="relative z-10 pt-16">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-base-content mb-4">Places I've been in {country.name}</h1>
+          <h1 className="text-4xl font-bold text-base-content mb-4">{`Places I've been in `}{country.name}</h1>
           <p className="text-xl text-base-content/80 max-w-3xl mx-auto">{country.description}</p>
         </div>
         <main className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
