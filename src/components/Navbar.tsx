@@ -53,7 +53,7 @@ export default function Navbar(){
                     <li className="flex">
                         <div className="flex items-center">
                             <Link href="/applications" className="px-4 py-2 hover:bg-base-200 rounded-l">Applications</Link>
-                            <div className="dropdown dropdown-hover dropdown-end">
+                            <div className="dropdown dropdown-hover">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -71,7 +71,7 @@ export default function Navbar(){
                     <li className="flex">
                         <div className="flex items-center">
                             <Link href="/travel" className="px-4 py-2 hover:bg-base-200 rounded-l">Travel</Link>
-                            <div className="dropdown dropdown-hover dropdown-end">
+                            <div className="dropdown dropdown-hover">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -88,7 +88,7 @@ export default function Navbar(){
                     <li className="flex">
                         <div className="flex items-center">
                             <Link href="/photography" className="px-4 py-2 hover:bg-base-200 rounded-l">Photography</Link>
-                            <div className="dropdown dropdown-hover dropdown-end">
+                            <div className="dropdown dropdown-hover">
                                 <label tabIndex={0} className="btn btn-ghost btn-xs px-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
