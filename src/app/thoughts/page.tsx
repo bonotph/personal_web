@@ -356,7 +356,7 @@ export default function ThoughtsPage() {
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({ target: containerRef, offset: ['start start', 'end start'] })
   const scrollBar = useSpring(scrollYProgress, { stiffness: 100, damping: 30 })
-  const _parallaxY = useTransform(scrollBar, [0, 1], ['0%', '20%'])
+
 
   return (
     <div ref={containerRef} className="relative min-h-screen" style={{ backgroundColor: '#0d1017' }}>
