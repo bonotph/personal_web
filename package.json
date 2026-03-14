@@ -32,5 +32,17 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
-  }
+  },
+  "description": "[link](https://personal-web-sigma-ten.vercel.app/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonotph/personal_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonotph/personal_web/issues"
+  },
+  "homepage": "https://github.com/bonotph/personal_web#readme"
 }
