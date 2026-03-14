@@ -1,24 +1,7 @@
 # Personal Website
 [link](https://personal-web-sigma-ten.vercel.app/)
 
-Current progress: just a prototype, frontpage
 
-next tasks: fix dropdown ui, add pages
-
-future plan:
-1. applications
-    * cross platform schedule and count money app used with family and frds, implemented with Flutter and Django
-    * DND board game hosting app
-    * hiking app, find buddies, race, trail map
-
-2. travel
-    * hk places
-    * 12 countries visited in exchange
-    * Asian countries
-
-3. photography
-    * photo album
-    * vlogs
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
